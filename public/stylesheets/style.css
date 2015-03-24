@@ -1,8 +1,117 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html, body {
+    padding-top: 25px;
+    height: 100%;
+    font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
+    
+}
+
+.fontType{
+    font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: white;
+}
+
+.container-nomargin {
+    height: 100%;
+    font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
+    min-height: 100%;
+}
+
+.dua{
+    background-color: #E8E8E8;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+}
+
+.sepuluh{
+    background-color: white;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+}
+
+.brand{
+    height: 30%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30%;
+}
+
+.brand:before {
+    content:'';
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+
+.Vmenu{
+    margin-top: 5px;
+}
+
+.side-menu {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: #f8f8f8;
+  border-right: 1px solid #e7e7e7;
+}
+.side-menu .navbar {
+  border: none;
+}
+
+.content-head{
+    height: 100%;
+    background-color: coral;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.content-main{
+    height: 75%;
+    background-color: ghostwhite;
+}
+
+#divider{
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+.about-content{ 
+    height: 100%;
+    background-color: orangered;
+}
+
+.photo{
+    height: 100%;
+    background-color: ghostwhite;
+}
+
+.circle
+{
+    border-radius: 125px;
+    width:250px;
+    height:250px; 
+    background-color:black;
+    color: white;
+    margin:auto;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 250px;
+}
+
+.circle:hover
+{
+    border: 10px solid #FF1000;
+    transition:1s;
+    color:#FF4800;
+}
+
+.skils{
+    height: 10%;
+    width: 70%;
+    background-color: red;
 }
